@@ -1,0 +1,106 @@
+body {
+    background-image: url("water.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.f {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.fish1 {
+    display: block;
+
+
+    height: 110px;
+    width: 110;
+
+    position: relative;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+
+.fish2 {
+    display: block;
+
+
+    height: 110px;
+    width: 110;
+
+    position: relative;
+    animation-name: move1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+.bubble1{
+    
+     
+    position: relative;
+    animation-name: move2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bubble2{
+    
+     
+    position: relative;
+    animation-name: move3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        left: 100%
+    }
+
+    100% {
+        left: 0%
+    }
+
+
+}
+
+@keyframes move1 {
+    0% {
+        left: 0%
+    }
+
+    100% {
+        left: 100%
+    }
+
+
+}
+@keyframes move2 {
+    0% {
+        left: 100%;bottom:0px;
+    }
+
+    100% {
+        left: 0%;bottom:500px;
+    }
+
+
+}
+@keyframes move3 {
+    0% {
+        left: 0%;bottom:0px;
+    }
+
+    100% {
+        left: 100%;bottom:500px;
+    }
+
+
+}
